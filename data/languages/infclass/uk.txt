@@ -22,7 +22,7 @@ Switch language to english ?
 == %s був(-ла) кiкнут(а) (%s)
 
 %s has been banned (%s)
-== %s був(-ла) забанен(а) (%s)
+== %s був(-ла) забанений(а) (%s)
 
 %s changed their name to %s
 == %s змiнив(-ла) свое iм'я на %s
@@ -42,7 +42,7 @@ You have survived, +5 points
 == Ви вижили, +5 очок
 
 %s has been infected
-== %s був(-ла) заражен(а)
+== %s був(-ла) заражений(а)
 
 The witch is coming!
 == Вiдьма йде!
@@ -72,7 +72,7 @@ You are an infected: %s
 == Ви заражений(-а): %s
 
 Type "/help %s" for more information about your class
-== Введiть \"/help %s\" для бiльш детальної iнформацiї про цей класс
+== Введiть \"/help %s\" для бiльш детальної iнформацiї про цей клас
 
 ##### STATE ############################################################
 
@@ -81,29 +81,29 @@ You are frozen: %d sec
 
 ### NOT TRANSLATED
 #Bombs left: %d
-#== 
+#== Залишилось бомб: %d
 
 ### NOT TRANSLATED
 #Laser wall: %d sec
-#== 
+#== Лазерна стіна: %d сек
 
 ### NOT TRANSLATED
 #Position lock: %d sec
-#== 
+#== Закріплена позиція: %d сек
 
 ### NOT TRANSLATED
 #Active mines: %d
-#== 
+#== Активованих мін: %d
 
 ### NOT TRANSLATED
 #Web mode enabled
-#== 
+#== Режим павутини увімкнено
 
 ##### CLASSCHOOSER #####################################################
 
 ### NOT TRANSLATED
 #Choose your class
-#== 
+#== Оберіть свій клас
 
 Random choice
 == Випадковий вибiр
@@ -125,16 +125,16 @@ List of commands
 == /help: Правила гри
 
 /help <class>: Information about a particular class
-== /help <class>: Iнформацiя про конкретний класс
+== /help <class>: Iнформацiя про конкретний клас
 
 /language <lang>: Change the language of the mod
-== /language <lang>: Змiнити мову гри на цьому модi
+== /language <lang>: Змiнити мову гри в цьому модi
 
 /customskin <none|me|all>: Show player skin instead of class-based skin for, respectively nobody, me or all humans
-== /customskin <none|me|all>: Показувати скiн гравця замiсть скiна класса, none - не показувати, me - для себе, all - для усiх
+== /customskin <none|me|all>: Показувати скiн гравця замiсть скiна класу, none - не показувати, me - для себе, all - для усiх
 
 /alwaysrandom <0|1>: Choose automatically random class when the round start
-== /alwaysrandom <0|1>: Автоматично вибирати класс випадково коли раунд починається
+== /alwaysrandom <0|1>: Автоматично вибирати клас випадково коли раунд починається
 
 ### NOT TRANSLATED
 #/lowresmap and /highresmap: Switch between simplified and classical maps
@@ -142,7 +142,7 @@ List of commands
 
 ### NOT TRANSLATED
 #Press <F3> or <F4> to enable or disable hook protection
-#== 
+#== Натисніть <F3> або <F4> щоб увімкнути або вимкнути захист гака (hook protection)
 
 Press <F3> or <F4> while holding <TAB> to switch the score system
 == Натиснiть <F3> або <F4> затиснувши <TAB> для перемикання системи пiдводження очок
@@ -151,16 +151,16 @@ Press <F3> or <F4> while holding <TAB> to switch the score system
 
 ### NOT TRANSLATED
 #Unknown language
-#== 
+#== Невідома мова
 
 ##### Always Random ##### 
 
 A random class will be automatically attributed to you when rounds start
-== У наступних раундах ваш класс буде вибран випадково
+== У наступних раундах ваш клас буде обрано випадково
 
 ### NOT TRANSLATED
 #The class selector will be displayed when rounds start
-#== 
+#== Класовий відбірник відобразить коли почнеться раунд
 
 ##### Info ##### 
 
@@ -179,29 +179,29 @@ Rules of the game:
 == Правила гри:
 
 InfectionClass is a team game between humans and infected.
-== InfectionClass це командне протистояння мiж виживаючими та зараженними.
+== InfectionClass це командне протистояння мiж виживаючими та зараженими.
 
 All players start as human.
-== Усi гравцi починають не зараженними.
+== Усi гравцi починають гру виживаючими.
 
 10 seconds later, two players become infected.
-== Через 10 секунд, 2 гравця стають зараженними.
+== Через 10 секунд, 2 гравця стають зараженими.
 
 The goal for humans is to survive until the army clean the map.
-== Мета для виживаючих це вижити до кiнця раунду.
+== Мета для виживаючих - вижити до кiнця раунду.
 
 The goal for infected is to infect all humans.
-== Мета для зараженних це заразити тих хто ще не заражен.
+== Мета для зараженних - заразити тих хто ще не заражений.
 
 ##### Hook protection ##### 
 
 ### NOT TRANSLATED
 #Hook protection enabled
-#== 
+#== Захист гака активовано
 
 ### NOT TRANSLATED
 #Hook protection disabled
-#== 
+#== Захист гака деактивовано
 
 ##### CLASSES ##########################################################
 
@@ -214,10 +214,10 @@ Engineer:
 == Iнженер:
 
 The Engineer can build walls with his hammer to block infected.
-== Iнженер може будувати стiни для блокування зараженних.
+== Iнженер може будувати стiни для блокування заражених.
 
 When an infected touch the wall, he dies.
-== Коли зараженний торкається стiни - вiн миттево померає.
+== Коли зараженний торкається стiни - вiн миттево помирає.
 
 The lifespan of a wall is 30 seconds, and walls are limited to one per player at the same time.
 == Тривалiсть життя однiєй стiни - 30 секунд, а також не можна будувати бiльше однiєї за раз.
@@ -234,7 +234,7 @@ The Soldier can pose floating bombs with his hammer.
 == Солдат може класти бомби у повiтрi своїм молотом.
 
 Each bomb can explode three times.
-== Кожна бомба мая 3 заряди, а отже - вибухати 3 рази.
+== Кожна бомба має 3 заряди, а отже - вибухати 3 рази.
 
 Use the hammer to place the bomb and explode it multiple times.
 == Використовуйте молот для встановлення та пiдриву бомб.
@@ -252,15 +252,15 @@ Scientist:
 
 ### NOT TRANSLATED
 #The Scientist can pose floating mines with his hammer.
-#== 
+#== Вчений може класти літаючі міни своїм молотом.
 
 ### NOT TRANSLATED
 #He has also grenades that teleport him.
-#== 
+#== Також віз за допомогою гранат телепортує себе.
 
 ### NOT TRANSLATED
 #Mines are limited to two per player at the same time.
-#== 
+#== Не можна класти бiльше двох мін за раз.
 
 ##### Medic ##### 
 
@@ -294,37 +294,37 @@ His hammer is replaced by a katana, allowing him to jump two times before touchi
 
 ### NOT TRANSLATED
 #Mercenary
-#== 
+#== Найманець
 
 ### NOT TRANSLATED
 #Mercenary:
-#== 
+#== Найманець:
 
 ### NOT TRANSLATED
 #The Mercenary fly in air using his machine gun.
-#== 
+#== Найманець може літати у повітрі задопомогою свого кулемету.
 
 ### NOT TRANSLATED
 #He can also throw poison grenades that deals 8 damage points.
-#== 
+#== Також він може кидати отруєні гранати, які наносять 8 очок пошкодження.
 
 ##### Sniper ##### 
 
 ### NOT TRANSLATED
 #Sniper
-#== 
+#== Снайпер
 
 ### NOT TRANSLATED
 #Sniper:
-#== 
+#== Снайпер:
 
 ### NOT TRANSLATED
 #The Sniper can lock his position in air for 15 seconds with his hammer.
-#== 
+#== Снайпер може закріпити позицію в повітрі задопомогою свого молота.
 
 ### NOT TRANSLATED
 #He has also a powerful rifle that deals 20 damage points in locked position, and 9-10 otherwise.
-#== 
+#== Також він має Сльну гвинтівку яка наносить 20 очок пошкодження в закріпленій позиції, та 9-10 в іншому випадку.
 
 ##### Smoker ##### 
 
@@ -335,7 +335,7 @@ Smoker:
 == Курильник:
 
 The Smoker can infect humans and heal infected with his hammer.
-== Курильник може заражати виживаючих та лiкувати зараженних своїм молотом.
+== Курильник може заражати виживаючих та лiкувати заражених своїм молотом.
 
 He can also inflict 4 damage points per seconds by hooking humans.
 == Вiн також може наносити 4 очки втрати здоровья в секунду своїм крюком.
@@ -352,7 +352,7 @@ The Boomer explodes when he attack.
 == Вибухач вибухає коли атакує.
 
 All humans affected by the explosion become infected.
-== Усiх виживаючих кого зачепило вибухом, стають зараженними.
+== Усiх виживаючих кого зачепило вибухом, стають зараженими.
 
 He can also inflict 1 damage point per seconds by hooking humans.
 == Вiн також може наносити 1 очко втрати здоровья в секунду своїм крюком.
@@ -366,7 +366,7 @@ Hunter:
 == Мисливець:
 
 The Hunter can infect humans and heal infected with his hammer.
-== Мисливець може заражати виживаючих та лiкувати зараженних своїм молотом.
+== Мисливець може заражати виживаючих та лiкувати заражених своїм молотом.
 
 He can jump two times in air.
 == У повiтрi вiн може пiдстрибувати 2 рази.
@@ -375,45 +375,45 @@ He can jump two times in air.
 
 ### NOT TRANSLATED
 #Spider
-#== 
+#== Павук
 
 ### NOT TRANSLATED
 #Spider:
-#== 
+#== Павук
 
 ### NOT TRANSLATED
 #The Spider can infect humans and heal infected with his hammer.
-#== 
+#== Павук може заражати виживаючих та лiкувати заражених своїм молотом.
 
 ### NOT TRANSLATED
 #When selecting any gun, his hook enter in web mode.
-#== 
+#== Коли він змінює зброю, його гак входить до павутинного режиму.
 
 ### NOT TRANSLATED
 #Any human that touch a hook in web mode is automatically grabbed.
-#== 
+#== Будь-яка людина яка торкнулася гака в режимі павутини буде автоматино притягнута
 
 ### NOT TRANSLATED
 #The hook of the spider (in both mode) deal 1 damage point per seconds and can grab a human during 2 seconds.
-#== 
+#== Гак павука (в обох режимах) наносить 1 очко пошкодження за секунду також може тримати людей 2 секунди.
 
 ##### Ghost #####
 
 ### NOT TRANSLATED
 #Ghost
-#== 
+#== Привид
 
 ### NOT TRANSLATED
 #Ghost:
-#== 
+#== Привид:
 
 ### NOT TRANSLATED
 #The Ghost can infect humans and heal infected with his hammer.
-#== 
+#== Привид може заражати виживаючих та лiкувати заражених своїм молотом.
 
 ### NOT TRANSLATED
 #He is invisible, except if a human is near him, if he takes a damage or if he use his hammer.
-#== 
+#== Він невидимий, крім випадків якщо людина недалеко від нього, або отрімує пошкодження або використовує свій молот.
 
 ##### Undead ##### 
 
@@ -424,7 +424,7 @@ Undead:
 == Бессмертний:
 
 The Undead can infect humans and heal infected with his hammer.
-== Бессмертний може заражати виживаючих та лiкувати зараженних своїм молотом.
+== Бессмертний може заражати виживаючих та лiкувати заражених своїм молотом.
 
 Instead of dying, he freezes during 10 seconds.
 == Замiсть смертi, вiн знерухомлюється на 10 секунд.
@@ -441,38 +441,38 @@ Witch:
 == Вiдьма:
 
 The Witch can infect humans and heal infected with his hammer.
-== Вiдьма може заражати виживаючих та лiкувати зараженних своїм молотом.
+== Вiдьма може заражати виживаючих та лiкувати заражених своїм молотом.
 
 When an infected dies, he may re-spawn near her.
-== Коли зараженний померає, вiн може заспавнитися поруч iз нею.
+== Коли заражений померає, вiн може заспавнитися поруч iз нею.
 
 If the Witch dies, she disappear and is replaced by an another class of infected.
-== Якщо вiдьма померає, то коли вона спавниться наступного разу, то вже не є вiдмою.
+== Якщо вiдьма померає, то коли вона спавниться наступного разу стає іншим зараженим.
 
 She can also inflict 1 damage point per seconds by hooking humans.
-== Вона також може наносити 1 очко втрати здоровья в секунду своїм крюком.
+== Вона також може наносити 1 очко пошкодження в секунду своїм гаком.
 
 ##### Hero ##### 
 
 ### NOT TRANSLATED
 #Hero
-#== 
+#== Герой
 
 ### NOT TRANSLATED
 #Hero:
-#== 
+#== Герой:
 
 ### NOT TRANSLATED
 #The Hero has a shotgun, a laser rifle and grenades.
-#== 
+#== Герой має дробовик, лазерну гвинтівку та гранатомет.
 
 ### NOT TRANSLATED
 #The Hero must find a flag hidden in the map.
-#== 
+#== Герой повінен знайти прапор захований на карті
 
 ### NOT TRANSLATED
 #Once taken, the flag gives 1 health point, 4 armor points, and full ammo to all humans, furthermore full health and armor to the hero.
-#== 
+#== Кожен знайдений прапор дає усім людям: 1 очко життя, 4 очки броні, та повний запас боєприпасів, а собі повне життя та броню.
 
 ### NOT TRANSLATED
 #The hero cannot be healed by a medic, but he can withstand a thrust by an infected, an his health suffice.
@@ -480,9 +480,9 @@ She can also inflict 1 damage point per seconds by hooking humans.
 
 ### NOT TRANSLATED
 #Next flag in %d sec
-#== 
+#== Наступний прапор через %d сек
 
 ### NOT TRANSLATED
 #The Hero found the flag!
-#== 
+#== Герой знайшов прапор!
 
